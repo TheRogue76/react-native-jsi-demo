@@ -1,0 +1,6 @@
+rootProject.name = 'CalendarExample'
+apply from: file("../node_modules/@react-native-community/cli-platform-android/native_modules.gradle"); applyNativeModulesSettingsGradle(settings)
+include ':app'
+
+include ':reactnativecalendar'
+project(':reactnativecalendar').projectDir = new File(rootProject.projectDir, '../../android')
