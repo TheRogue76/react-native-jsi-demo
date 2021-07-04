@@ -5,11 +5,11 @@ A test package for JSI
 ## Usage
 
 ```js
-import Calendar from "react-native-calendar";
+import {hello} from "react-native-calendar";
 
 // ...
 
-const result = Calendar.helloWorld();
+const result = hello();
 ```
 
 ## Contributing

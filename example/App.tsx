@@ -1,12 +1,12 @@
 import React, {useState, useEffect} from 'react';
 import {StyleSheet, View, Text} from 'react-native';
-import Calendar from 'react-native-calendar';
+import {hello} from 'react-native-calendar';
 
 export default function App() {
   const [result, setResult] = useState<string>('');
 
   useEffect(() => {
-    setResult(Calendar.helloWorld());
+    setResult(hello());
   }, []);
 
   return (
