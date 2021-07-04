@@ -1,7 +1,7 @@
 import { NativeModules } from 'react-native';
 
 type CalendarType = {
-  multiply(a: number, b: number): Promise<number>;
+  helloWorld: () => void;
 };
 
 const { Calendar } = NativeModules;
