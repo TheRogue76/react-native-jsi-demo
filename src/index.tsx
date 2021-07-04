@@ -1,7 +1,7 @@
 import { NativeModules } from 'react-native';
 
 type CalendarType = {
-  helloWorld: () => void;
+  helloWorld: () => string;
 };
 
 const { Calendar } = NativeModules;
